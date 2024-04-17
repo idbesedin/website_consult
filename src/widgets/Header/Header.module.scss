@@ -1,0 +1,21 @@
+.header{
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 10;
+}
+.items{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0px;
+}
+.item{
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+	font-size: 25px;
+	font-weight: 500;
+	&__menu{
+		position: relative;
+	}
+}

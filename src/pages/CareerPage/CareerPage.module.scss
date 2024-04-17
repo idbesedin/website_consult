@@ -1,0 +1,156 @@
+.page{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 160px;
+	padding-top: 20px ;
+	gap: 230px;
+}
+.cap{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__logo{
+		width: 50%;
+	}
+	&__title{
+		color: #333333;
+		font-size: 210px;
+		margin-top: 93px;
+		font-weight: 800;
+		position: relative;
+	}
+	&__descr{
+		margin-top: 22px;
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 29px;
+		text-align: center;
+	}
+	&__btn{
+		margin-top: 49px;
+	}
+	&__left{
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+	}
+	&__right{
+		position: absolute;
+		right: 0;
+		top: 55px;
+		z-index: -1;
+	}
+	&__square{
+		position: absolute;
+		top: 60px;
+		left: 445px;
+		width: 115px;
+		height: 148px;
+		background-color: #008AFF;
+		z-index: -1;
+	}
+}
+.vacancy{
+	display: flex;
+	justify-content: space-between;
+	&__left{
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+	&__right{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		width: 100%;
+	}
+	&__title{
+		font-size: 55px;
+		font-weight: 800;
+		width: fit-content;
+	}
+	&__descr{
+		width: 60%;
+		font-size: 27px;
+		font-weight: 300;
+	}
+	&__advantages{
+		display: flex;
+
+	}
+	&__img{
+		width: 100%;
+		height: 100%;
+		font-size: 25px;
+		font-weight: 400;
+		background-color: #333333;
+		color: white;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.advantages{
+	&__item{
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		width: 370px;
+	}
+	&__dot{
+		background-color: #FF8300;
+		height: 58px;
+		width: 58px;
+		border-radius: 58px;
+	}
+	&__title{
+		font-weight: 700;
+		font-size: 40px;
+		margin-top: 32px;
+	}
+	&__text{
+		font-weight: 400;
+		font-size: 22px;
+		text-align: center;
+		margin-top: 23px;
+	}
+}
+.icon12{
+	position: absolute;
+	left: 0;
+	top: -50px;
+	z-index: -1;
+}
+.icon22{
+	position: absolute;
+	right: 0;
+	top: 50px;
+	z-index: -1;
+}
+.icon13{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	z-index: -1;
+}
+.icon23{
+	position: absolute;
+	right: 0;
+	top: -10px;
+	z-index: -1;
+}
+.icon14{
+	position: absolute;
+	left: -20px;
+	z-index: -1;
+	top: -200px;
+}
+.icon24{
+	position: absolute;
+	right: 0;
+	z-index: -1;
+}

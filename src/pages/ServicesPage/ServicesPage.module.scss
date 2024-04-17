@@ -1,0 +1,375 @@
+.page{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 382px;
+	padding-top: 20px ;
+	display: flex;
+	flex-direction: column;
+	gap: 150px;
+	overflow: hidden;
+}
+.cap{
+	background-image: url('../../assets/img/services/title_img.png');
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-size: cover;
+	// clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 0);
+	&__left{
+		position: absolute;
+		left: 0;
+		top: 50px;
+		z-index: -1;
+	}
+	&__right{
+		position: absolute;
+		right: 0;
+		top: 55px;
+		z-index: -1;
+	}
+	&__title{
+		font-size: 60px;
+		font-weight: 700;
+		color: #333333;
+		padding: 10px 20px;
+		height: fit-content;
+		background-color: white;
+		// transform: translateY(-2px) translateX(-2px);
+	}
+	&__descr{
+		margin: 30px 30px 30px 0px;
+		width: 30%;
+		font-size: 32px;
+		font-weight: 300;
+		padding: 20px;
+		background-color: #FFFFFF;
+		opacity: 0.95;
+	}
+}
+
+.descr{
+	display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
+	&__img{
+		width: 47%;
+		// height: 100%;
+		font-size: 25px;
+		font-weight: 400;
+		background-color: #333333;
+		color: white;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__block{
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		width: 47%;
+	}
+	&__title{
+		font-weight: 700;
+		font-size: 60px;
+		color: #000;
+	}
+	&__subtitle{
+		font-weight: 500;
+		font-size: 30px;
+	}
+	&__text{
+		font-weight: 500;
+		font-size: 25px;
+	}
+}
+
+.numbers{
+	&__wrapper{
+		padding-right: 7.5%;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__container{
+		margin-top: 85px !important;
+	}
+	&__title{
+		background: linear-gradient(26deg, #ff005c 0%, #ff8300 100%);
+		width: 370px;
+		padding: 8px 36px 14px 0px;
+		text-align: end;
+		font-weight: 500;
+		font-size: 45px;
+		color: #fff;
+		position: relative;
+		img{
+			position: absolute;
+			top: -44px;
+			left: 15px;
+		}
+	}
+	&__subtitle{
+		font-weight: 400;
+		font-size: 25px;
+		text-align: right;
+	}
+	&__line{
+		height: 1px;
+		background-color: #333333;
+		width: 100%;
+		position: relative;
+		&::after{
+			content: '';
+			display: block;
+			height: 26px;
+			width: 26px;
+			border-radius: 26px;
+			background-color: #333333;
+			position: absolute;
+			right: 0;
+			top: -13px;
+		}
+		&::before{
+			content: '';
+			height: 26px;
+			display: block;
+			width: 26px;
+			border-radius: 26px;
+			background-color: #333333;
+			position: absolute;
+			top: -13px;
+			left: 0;
+		}
+	}
+	&__examples{
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+		margin-top: 150px !important;
+	}
+	&__example{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		&__title{
+			font-weight: 300;
+			font-size: 140px;
+			width: 40%;
+			text-align: center;
+		}
+		&__descr{
+			font-weight: 300;
+			font-size: 25px;
+			width: 40%;
+			padding-right: 30px;
+		}
+	}
+}
+
+.motivation{
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	&__title{
+		background-color: #333333;
+		font-size: 45px;
+		font-weight: 800;
+		color: white;
+		padding: 15px;
+		width: 25%;
+	}
+	&__img{
+		background-image: url('../../assets/img/services/motivation_img.png');
+		width: 25%;
+		&_pink{
+			background-color: #FF005C;
+			opacity: 0.7;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__slogan{
+		width: 50%;
+		font-size: 20px;
+		font-weight: 300;
+		border: 15px solid #6800DE;
+		background-color: #b380ef;
+		font-size: 20px;
+		color: white;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__benefits{
+		padding: 23px;
+		background-color: #F6F6F6;
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		width: 50%;
+		&__text{
+			font-size: 35px;
+			font-weight: 600;
+			word-wrap: normal;
+		}
+		&__descr{
+			font-weight: 400;
+			font-size: 25px;
+			display: block;
+		}
+		&__item{
+			padding: 10px 110px 10px 10px; 
+			background-color: white;
+			border-radius: 35px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			img{
+				height: 76px;
+			}
+		}
+		&__btn{
+			background-color: #FF005C;
+			border: 0;
+			text-align: center;
+			color: white;
+			font-size: 35px;
+			width: 100%;
+			padding: 25px;
+			border-radius: 50px;
+		}
+	}
+	&__btn{
+		width: 45%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+		&__title{
+			font-size: 47px;
+			font-weight: 700;
+			text-align: center;
+		}
+		&__descr{
+			font-size: 25px;
+			font-weight: 300;
+			text-align: center;
+		}
+		&__circle{
+			width: 200px;
+			height: 200px;
+			background-color: #6800DE;
+			border-radius: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}
+
+.last{
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__title{
+		font-size: 56px;
+		font-weight: 800;
+	}
+	&__subtitle{
+		font-weight: 400;
+		font-size: 25px;
+		text-align: right;
+	}
+	&__texts{
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+		p{
+			font-size: 22px;
+			font-weight: 300;
+		}
+	}
+	&__cards{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__card{
+		width: 24%;
+		padding: 25px;
+		height: 550px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		color: white;
+		img{
+			display: block;
+		}
+		&__title{
+			font-size: 30px;
+			font-weight: 800;
+		}
+		&__number{
+			font-size: 30px;
+			font-weight: 300;
+		}
+		&__line{
+			margin-top: 24px;
+			width: 100%;
+			height: 1px;
+			background-color: white;
+		}
+		&__descr{
+			margin-top: 15px;
+			font-size: 25px;
+			font-weight: 300;
+		}
+	}
+}
+.icon12{
+	position: absolute;
+	left: 0;
+	top: -50px;
+	z-index: -1;
+}
+.icon22{
+	position: absolute;
+	right: 0;
+	top: 50px;
+	z-index: -1;
+}
+.icon13{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	z-index: -1;
+}
+.icon23{
+	position: absolute;
+	right: 0;
+	top: -10px;
+	z-index: -1;
+}
+.icon14{
+	position: absolute;
+	left: 0;
+	top: 30px;
+	z-index: -1;
+}
+.icon24{
+	position: absolute;
+	right: -50px;
+	top: 200px;
+	z-index: -1;
+}

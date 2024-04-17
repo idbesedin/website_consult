@@ -1,0 +1,43 @@
+.menu{
+	background-color: #333333;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 283px;
+	z-index: -1;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	background-color: white;
+}
+.text{
+	font-size: 24px;
+	font-weight: 700;
+	color: white;
+}
+.icon{
+	&__wrappper{
+		display: flex;
+		align-items: center;
+		position: absolute;
+		bottom: -55px;
+		left: 55px;
+		width: 93px;
+	}
+	&_left{
+		transform: translateX(10px);
+		width: 30px;
+	}
+	&_right{
+		transform: translateX(-10px);
+		width: 30px;
+	}
+	&_big{
+		width: 52px;
+	}
+}

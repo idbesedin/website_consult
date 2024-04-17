@@ -1,0 +1,281 @@
+.page{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 160px;
+	padding-top: 20px ;
+}
+.cap{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__descr{
+		margin-top: 150px;
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 29px;
+		text-align: center;
+	}
+	&__left{
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	&__right{
+		position: absolute;
+		right: 0;
+		top: 55px;
+	}
+	&__logo{
+		position: relative;
+		margin-top: 155px;
+		p{
+			font-weight: 800;
+			font-size: 150px;
+			color: #333;
+		}
+	}
+	&__purchase{
+		position: absolute;
+		bottom: -10px;
+		right: 110px;
+	}
+	&__rate{
+		position: absolute;
+		top: -20px;
+		left: 150px;
+	}
+	&__rent{
+		position: absolute;
+		top: -20px;
+		right: 293px;
+	}
+}
+
+.purchase{
+	margin-top: 150px;
+	display: flex;
+	position: relative;
+	&__title{
+		background: linear-gradient(26deg, #ff005c 0%, #ff8300 100%);
+		width: 889px;
+		padding: 8px 36px 14px 0px;
+		text-align: end;
+		font-weight: 500;
+		font-size: 45px;
+		color: #fff;
+		position: relative;
+		img{
+			position: absolute;
+			top: -44px;
+			left: 15px;
+		}
+	}
+	&__left{
+		display: flex;
+		flex-direction: column;
+		gap: 190px;
+	}
+	&__text{
+		font-weight: 400;
+		font-size: 35px;
+		color: #333;
+		width: 665px;
+		padding-left: 7.5%;
+	}
+	&__btns{
+		display: flex;
+		gap: 32px;
+		padding-left: 7.5%;
+	}
+	&__right{
+		padding-right: 7.5%;
+		width: 100%;
+		position: relative;
+	}
+	&__square{
+		position: absolute;
+		width: 483px;
+		height: 483px;
+		padding: 218px 85px;
+		font-weight: 400;
+		font-size: 34px;
+		color: #fff;
+	}
+}
+
+.rate{
+	margin-top: 200px;
+	position: relative;
+	&__wrapper{
+		padding-right: 7.5%;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__container{
+		margin-top: 85px !important;
+	}
+	&__title{
+		background: linear-gradient(26deg, #ff005c 0%, #ff8300 100%);
+		width: 370px;
+		padding: 8px 36px 14px 0px;
+		text-align: end;
+		font-weight: 500;
+		font-size: 45px;
+		color: #fff;
+		position: relative;
+		img{
+			position: absolute;
+			top: -44px;
+			left: 15px;
+		}
+	}
+	&__subtitle{
+		font-weight: 400;
+		font-size: 25px;
+		text-align: right;
+	}
+}
+  
+  .photoHeader {
+	background-color: #333333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 10px;
+	height: 290px;
+	font-weight: 300;
+	font-size: 35px;
+	color: #fff;
+  }
+  
+  .content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px; 
+	justify-content: space-between;
+	font-weight: 300;
+	font-size: 25px;
+	color: #fff;
+	align-items: end;
+  }
+  
+  .contentBlock {
+	background-color: #FF005C; 
+	color: #fff;
+	flex-basis: calc(50% - 10px); 
+	height: 260px; 
+	text-align: end;
+	box-sizing: border-box;
+	margin-bottom: 10px; 
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	img{
+		padding-left: 10px;
+		height: 210px;
+		transform: translateY(3px);
+	}
+	p{
+		padding: 0 35px 35px 0;
+	}
+  }
+.rent{
+	margin-top: 85px;
+	position: relative;
+	&__title{
+		background: linear-gradient(26deg, #ff005c 0%, #ff8300 100%);
+		width: 705px;
+		padding: 8px 36px 14px 0px;
+		text-align: end;
+		font-weight: 500;
+		font-size: 45px;
+		color: #fff;
+		position: relative;
+		img{
+			position: absolute;
+			top: -44px;
+			left: 15px;
+		}
+	}
+	&__card{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 25%;
+		&_white{
+			background-color: #E7E7E7;
+			width: 100%;
+			height: 100%;
+			padding: 20px;
+			font-weight: 500;
+			font-size: 25px;
+			color: black;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+	&__wrapper{
+		margin-top: 85px;
+		display: flex;
+		gap: 20px;
+		height: 760px;
+	}
+	&__img{
+		width: 100%;
+		height: 100%;
+		font-size: 25px;
+		font-weight: 400;
+		background-color: #333333;
+		color: white;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__text{
+		text-align: center;
+		font-size: 22px;
+		&_big{
+			font-size: 100px;
+			font-weight: 700;
+		}
+	}
+}
+.icon12{
+	position: absolute;
+	left: 0;
+	top: -50px;
+	z-index: -1;
+}
+.icon22{
+	position: absolute;
+	right: 0;
+	top: 50px;
+	z-index: -1;
+}
+.icon13{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	z-index: -1;
+}
+.icon23{
+	position: absolute;
+	right: 0;
+	top: -10px;
+	z-index: -1;
+}
+.icon14{
+	position: absolute;
+	left: 0;
+	top: 30px;
+	z-index: -1;
+}
+.icon24{
+	position: absolute;
+	right: 0;
+	top: 200px;
+	z-index: -1;
+}
