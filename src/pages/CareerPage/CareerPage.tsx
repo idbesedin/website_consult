@@ -1,8 +1,7 @@
 import {motion} from 'framer-motion'
 import styles from './CareerPage.module.scss'
-
-import top_left from 'assets/icons/home_page/top_left.svg'
-import top_right from 'assets/icons/home_page/top_right.svg'
+import top_left from 'assets/icons/partners_page/top_left.svg'
+import top_right from 'assets/icons/partners_page/top_right.svg'
 import { Btn, Container } from 'shared'
 
 import icon12 from 'assets/icons/other_pages/icon12.svg'
