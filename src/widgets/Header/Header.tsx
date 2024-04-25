@@ -26,15 +26,14 @@ const Header = () => {
 						to={"career"}
 						className={styles.item}
 					>КАРЬЕРА</NavLink>
-					<NavLink 
-						to={"services"}
+					<div
 						className={`${styles.item} ${styles.item__menu}`}
 						onClick={() => setIsMenuVisible(!isMenuVisible)}
 						style={{color: isMenuVisible ? "white" : "black"}}
 					>
 						УСЛУГИ
 						{isMenuVisible && <DropdownMenu/>}
-					</NavLink>
+					</div>
 				</>
 			</Container>
 		</header>
