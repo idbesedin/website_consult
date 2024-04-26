@@ -14,18 +14,6 @@ const Header = () => {
 						to={"/"}
 						className={styles.item}
 					>О НАС</NavLink>
-					<NavLink 
-						to={"partners"}
-						className={styles.item}
-					>ПАРТНЕРЫ</NavLink>
-					<NavLink 
-						to={"estate"}
-						className={styles.item}
-					>КОММЕРЧЕСКАЯ НЕДВИЖИМОСТЬ</NavLink>
-					<NavLink 
-						to={"career"}
-						className={styles.item}
-					>КАРЬЕРА</NavLink>
 					<div
 						className={`${styles.item} ${styles.item__menu}`}
 						onClick={() => setIsMenuVisible(!isMenuVisible)}
@@ -34,6 +22,18 @@ const Header = () => {
 						УСЛУГИ
 						{isMenuVisible && <DropdownMenu/>}
 					</div>
+					<NavLink 
+						to={"estate"}
+						className={styles.item}
+					>КОММЕРЧЕСКАЯ НЕДВИЖИМОСТЬ</NavLink>
+					<NavLink 
+						to={"career"}
+						className={styles.item}
+					>КАРЬЕРА</NavLink>
+					<NavLink 
+						to={"partners"}
+						className={styles.item}
+					>ПАРТНЕРЫ</NavLink>
 				</>
 			</Container>
 		</header>
